@@ -1,0 +1,10 @@
+{
+    "files": [
+        "composer.json",
+        "composer.lock"
+    ],
+    "main": "bin/calendar.php",
+    "directories": ["src", "vendor"],
+    "output": "calendar-monitoring.phar",
+    "stub" : true
+}
