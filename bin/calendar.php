@@ -10,7 +10,7 @@ if ( php_sapi_name() !== 'cli' ) {
 function monitoring_show_error( $error ) {
         global $argv;
         echo $error . PHP_EOL . PHP_EOL;
-        printf( "Usage:\n\tGOOGLE_APPLICATION_CREDENTIALS=/path/to/google/credentials.json %s user@automattic.com\n", $argv[0] );
+        printf( "Usage:\n\tGOOGLE_APPLICATION_CREDENTIALS=/path/to/google/credentials.json %s user@gsuitedomain.com\n", $argv[0] );
         exit( 1 );
 }
 
