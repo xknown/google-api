@@ -5,6 +5,6 @@
     ],
     "main": "bin/calendar.php",
     "directories": ["src", "vendor"],
-    "output": "calendar-monitoring.phar",
+    "output": "build/calendar-monitoring.phar",
     "stub" : true
 }
